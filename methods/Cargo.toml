@@ -1,0 +1,16 @@
+[package]
+name = "methods"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+risc0-build = "0.10"
+serde = "1.0"
+hex = "0.4"
+hex-literal = "0.3.4"
+crypto-hash = "0.3.4"
+sha256 = "1.0.3"
+sha2 = "0.10.2"
+
+[package.metadata.risc0]
+methods = ["guest"]
